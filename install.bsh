@@ -2,9 +2,11 @@
 apt update && apt install -y fzf
 
 cd $HOME
+
 if [ ! -f .bashrc_extender ]; then
-  wget https://raw.githubusercontent.com/jaydabi/bash-config/main/.bashrc_extender
   echo "source .bashrc_extender" >> .bashrc
 fi 
+
+wget https://raw.githubusercontent.com/jaydabi/bash-config/main/.bashrc_extender
 
 exit 0
