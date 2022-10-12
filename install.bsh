@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt update
-sudo apt install -y fzf
+sudo apt install -y fzf vim
 
 cd $HOME
 
