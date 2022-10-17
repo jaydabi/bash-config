@@ -6,7 +6,7 @@ sudo apt install -y fzf vim
 cd $HOME
 
 if [ ! -f .bashrc_extender ]; then
-  echo "source .bashrc_extender" >> .bashrc
+  echo "source \$HOME/.bashrc_extender" >> .bashrc
 fi 
 
 wget https://raw.githubusercontent.com/jaydabi/bash-config/main/.bashrc_extender
